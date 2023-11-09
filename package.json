@@ -1,0 +1,29 @@
+{
+    "name": "bsure",
+    "description": "A validation library that provides a simple way to validate and clean values of different types",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "https://github.com/brianbal/bsure#README.md",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brainbal/bsure.git"
+    },
+    "bugs": "https://github.com/brianbal/bsure/issues",
+    "author": "Brian Bal <briantbal@gmail.com>",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "bun run build.mjs",
+        "prepublishOnly": "bun run build"
+    },
+    "files": [
+        "dist"
+    ],
+    "module": "src/index.ts",
+    "type": "module",
+    "devDependencies": {
+        "bun-plugin-dts": "^0.2.1",
+        "bun-types": "latest",
+        "typescript": "^5.0.0"
+    }
+}
