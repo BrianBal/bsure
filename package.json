@@ -14,8 +14,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "bun run build.mjs",
-        "prepublishOnly": "bun run build",
-        "prepare": "bun run build"
+        "prepublishOnly": "bun run build"
     },
     "files": [
         "dist"
